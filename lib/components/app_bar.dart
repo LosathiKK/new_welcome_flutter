@@ -30,7 +30,7 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
             IconButton(
               onPressed: () {}, 
               icon: Image.asset(
-                "assets/icons/notification-100.png",
+                "assets/icons/notification.png",
                 width: 24,
                 height: 24,
               )
@@ -39,7 +39,7 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
             IconButton(
               onPressed: () {}, 
               icon: Image.asset(
-                "assets/icons/profile-pic.png",
+                "assets/icons/profile.png",
                 width: 30,
                 height: 30,
               ),

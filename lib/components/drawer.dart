@@ -9,8 +9,9 @@ import '../Menu/profile_page.dart';
 import '../Menu/setting.dart';
 
 class MyDrawer extends StatelessWidget {
-  const MyDrawer ({super.key, 
-  required Container child
+  const MyDrawer ({
+    super.key, 
+    required Container child
   });
 
   @override
@@ -34,7 +35,7 @@ class MyDrawer extends StatelessWidget {
             child: Column(
               children: [
                 Image.asset(
-                  'assets/images/logo1.png',
+                  'assets/images/logo.png',
                   width: 100,
                   height: 100,
                 ),
