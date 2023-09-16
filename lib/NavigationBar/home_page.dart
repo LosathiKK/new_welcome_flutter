@@ -5,6 +5,7 @@ import 'package:new_welcome_flutter/Departments/dns_dept-page.dart';
 import 'package:new_welcome_flutter/Departments/ds_dept_page.dart';
 import 'package:new_welcome_flutter/Departments/mis_dept_page.dart';
 import 'package:new_welcome_flutter/components/app_bar.dart';
+import 'package:new_welcome_flutter/components/drawer.dart';
 
 
 // ignore: must_be_immutable
