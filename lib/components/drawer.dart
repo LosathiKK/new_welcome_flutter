@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:new_welcome_flutter/components/bottom_nav.dart';
 
 import '../Menu/about_us.dart';
 import '../Menu/help_center.dart';
