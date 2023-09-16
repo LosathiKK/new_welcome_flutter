@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:new_welcome_flutter/Pages/continue_page.dart';
 import 'package:new_welcome_flutter/components/background.dart';
 
 class WelcomePage extends StatelessWidget {
