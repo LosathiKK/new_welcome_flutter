@@ -69,10 +69,10 @@ flutter:
      - assets/icons/profile.png
      - assets/illustrations/continue.svg
      - assets/illustrations/login.svg
-     - assets/images/csse.png
-     - assets/images/d.png
-     - assets/images/data.png
-     - assets/images/iss.png
+     - assets/images/csse1.png
+     - assets/images/d1.png
+     - assets/images/data1.png
+     - assets/images/iss1.png
      - assets/images/logo.png
 
   # An image asset can refer to one or more resolution-specific "variants", see

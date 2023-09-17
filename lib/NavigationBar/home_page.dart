@@ -207,7 +207,7 @@ class HomePage extends StatelessWidget {
                                   );
                                  },
                                 child: Image.asset(
-                                  'assets/images/csse.png',
+                                  'assets/images/csse1.png',
                                   width: 160,
                                   height: 160,
                                 ),
@@ -238,7 +238,7 @@ class HomePage extends StatelessWidget {
                                   );
                                  },
                                 child: Image.asset(
-                                  'assets/images/iss.png',
+                                  'assets/images/iss1.png',
                                   width: 160,
                                   height: 160,
                                 ),
@@ -281,7 +281,7 @@ class HomePage extends StatelessWidget {
                                   );
                                  },
                                 child: Image.asset(
-                                  'assets/images/d.png',
+                                  'assets/images/d1.png',
                                   width: 160,
                                   height: 160,
                                 ),
@@ -312,7 +312,7 @@ class HomePage extends StatelessWidget {
                                   );
                                  },
                                 child: Image.asset(
-                                  'assets/images/data.png',
+                                  'assets/images/data1.png',
                                   width: 160,
                                   height: 160,
                                 ),
