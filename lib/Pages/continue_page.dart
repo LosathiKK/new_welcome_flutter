@@ -30,7 +30,7 @@ class ContinuePage extends StatelessWidget {
                 alignment: Alignment.bottomCenter,
 
                 child: Padding(
-                  padding: EdgeInsets.only(top: 150),
+                  padding: EdgeInsets.only(top: 200),
 
                   child: ElevatedButton(
                     onPressed: () {

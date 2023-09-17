@@ -41,7 +41,7 @@ class LoginPage extends StatelessWidget {
                 ),
 
                 Padding(
-                  padding: EdgeInsets.fromLTRB(20, 15, 20, 20),
+                  padding: EdgeInsets.fromLTRB(30, 15, 30, 20),
 
                   child: TextField(
                     decoration: InputDecoration(
@@ -69,7 +69,7 @@ class LoginPage extends StatelessWidget {
                 ),
 
                 Padding(
-                  padding: EdgeInsets.fromLTRB(20, 0, 20, 5),
+                  padding: EdgeInsets.fromLTRB(30, 0, 30, 5),
 
                   child: TextField(
                     decoration: InputDecoration(
@@ -146,44 +146,47 @@ class LoginPage extends StatelessWidget {
                   ),
                 ),
 
-                SizedBox(
-                  height: 45,
-                  width: 300,
-
-                  child: ElevatedButton(
-                    onPressed: () {
-                      Navigator.push(
-                        context, 
-                        MaterialPageRoute(
-                          builder: (context) => NavigationExample()
-                        ),
-                      );
-                    }, 
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: Color.fromRGBO(15, 26, 88, 1.0),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(5)
-                      ),
-                    ),
-
-                    child: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Text(
-                          "LOGIN",
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold,
+                Padding(
+                  padding: const EdgeInsets.only(top: 30),
+                  child: SizedBox(
+                    height: 45,
+                    width: 250,
+                
+                    child: ElevatedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context, 
+                          MaterialPageRoute(
+                            builder: (context) => NavigationExample()
                           ),
+                        );
+                      }, 
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Color.fromRGBO(15, 26, 88, 1.0),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(5)
                         ),
-                        Icon(
-                          Icons.navigate_next_rounded,
-                          color: Colors.white,
-                        ),
-                      ],
+                      ),
+                    
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Text(
+                            "LOGIN",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          Icon(
+                            Icons.navigate_next_rounded,
+                            color: Colors.white,
+                          ),
+                        ],
+                      ),
+                    
                     ),
-
                   ),
                 ),
                 

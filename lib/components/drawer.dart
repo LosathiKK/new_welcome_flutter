@@ -17,9 +17,9 @@ class MyDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Drawer(
-
+    
       child: ListView(
-
+    
         padding: EdgeInsets.zero,
         children: [
           
@@ -31,7 +31,7 @@ class MyDrawer extends StatelessWidget {
                 bottomRight: Radius.circular(10),
               ),
             ),
-
+    
             child: Column(
               children: [
                 Image.asset(
@@ -39,7 +39,7 @@ class MyDrawer extends StatelessWidget {
                   width: 100,
                   height: 100,
                 ),
-
+    
                 Text(
                   "YASHOD SILVA",
                   textAlign: TextAlign.center,
@@ -52,7 +52,7 @@ class MyDrawer extends StatelessWidget {
               ],
             ),
           ),
-
+    
           Padding(
             padding: const EdgeInsets.fromLTRB(30, 10, 30, 10),
             child: Container(
@@ -84,7 +84,7 @@ class MyDrawer extends StatelessWidget {
               ),
             ),
           ),
-
+    
           Padding(
             padding: const EdgeInsets.fromLTRB(30, 10, 30, 10),
             child: Container(
@@ -116,7 +116,7 @@ class MyDrawer extends StatelessWidget {
               ),
             ),
           ),
-
+    
           Padding(
             padding: const EdgeInsets.fromLTRB(30, 10, 30, 10),
             child: Container(
@@ -148,7 +148,7 @@ class MyDrawer extends StatelessWidget {
               ),
             ),
           ),
-
+    
           Padding(
             padding: const EdgeInsets.fromLTRB(30, 10, 30, 10),
             child: Container(
@@ -180,7 +180,7 @@ class MyDrawer extends StatelessWidget {
               ),
             ),
           ),
-
+    
           Padding(
             padding: const EdgeInsets.fromLTRB(30, 10, 30, 10),
             child: Container(
@@ -212,7 +212,7 @@ class MyDrawer extends StatelessWidget {
               ),
             ),
           ),
-
+    
           Padding(
             padding: const EdgeInsets.fromLTRB(80, 50, 30, 0),
             child: ElevatedButton(
@@ -230,10 +230,10 @@ class MyDrawer extends StatelessWidget {
                     )
                 );
               },
-
+    
               child: ListTile(
                 iconColor: Colors.white,
-
+    
                 leading: Icon(
                   Icons.arrow_forward_ios_rounded,
                 ),
@@ -245,11 +245,11 @@ class MyDrawer extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-
+    
               ),
             ),
           ),
-
+    
         ],
       ),
     );
