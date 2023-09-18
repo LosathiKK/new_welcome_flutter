@@ -46,7 +46,7 @@ class ContinuePage extends StatelessWidget {
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Color.fromRGBO(15, 26, 88, 1.0),
-                      fixedSize: Size(180, 10),
+                      fixedSize: Size(180, 40),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(28),
                       ),

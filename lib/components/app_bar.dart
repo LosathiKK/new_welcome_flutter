@@ -5,11 +5,24 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
+
     return AppBar(
+      flexibleSpace: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.topRight,
+            colors: [ 
+              Color.fromRGBO(30, 144, 255, 1.0), 
+              Color.fromRGBO(255, 255, 255, 1.0)
+            ],
+          ),
+        ),
+      ),
       
         leading: Builder(
           builder: ((context) {
-
+    
             return IconButton(
               onPressed: () {
                 Scaffold.of(context).openDrawer();
@@ -23,10 +36,9 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
           }
           ) 
         ),
-
-          backgroundColor: Colors.white,
+          
           actions: [
-
+    
             IconButton(
               onPressed: () {}, 
               icon: Image.asset(
@@ -35,7 +47,7 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
                 height: 24,
               )
             ),
-
+    
             IconButton(
               onPressed: () {}, 
               icon: Image.asset(
@@ -44,7 +56,7 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
                 height: 30,
               ),
             ),
-
+    
           ],
     );
   }

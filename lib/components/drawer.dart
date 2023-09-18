@@ -9,6 +9,7 @@ import '../Menu/profile_page.dart';
 import '../Menu/setting.dart';
 
 class MyDrawer extends StatelessWidget {
+
   const MyDrawer ({
     super.key, 
     required Container child
@@ -23,6 +24,7 @@ class MyDrawer extends StatelessWidget {
         topRight: Radius.circular(15),
         bottomRight: Radius.circular(15),
       ),
+
       child: Drawer(
       
         child: ListView(
@@ -261,5 +263,6 @@ class MyDrawer extends StatelessWidget {
         ),
       ),
     );
+    
   }
 }

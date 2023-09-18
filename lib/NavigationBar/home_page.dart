@@ -10,7 +10,6 @@ import 'package:new_welcome_flutter/components/drawer.dart';
 
 // ignore: must_be_immutable
 class HomePage extends StatelessWidget {
-
   int currentIndex = 0;
 
   Widget build(BuildContext context) {
@@ -23,7 +22,7 @@ class HomePage extends StatelessWidget {
           drawer: MyDrawer(
             child: Container(),
           ),
-        
+
             body: Center(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.start,
@@ -52,7 +51,7 @@ class HomePage extends StatelessWidget {
                               ) 
                             ]
                           ),
-        
+                          
                           child: Column(
                             children: [
                               Text("Our Vision",
@@ -62,11 +61,11 @@ class HomePage extends StatelessWidget {
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
-        
+                          
                               Image.asset(
                                 'assets/icons/vision.png'
                               ),
-        
+                          
                               Text(
                                 "To be Sri Lanka's best-performing graduate school and to be recognized internationally.",
                                   textAlign: TextAlign.center,
@@ -79,7 +78,7 @@ class HomePage extends StatelessWidget {
                             ],
                           ),
                         ),
-        
+                          
                         Container(
                           alignment: Alignment.topCenter,
                           margin: 
@@ -96,7 +95,7 @@ class HomePage extends StatelessWidget {
                               ) 
                             ]
                           ),
-        
+                          
                           child: Column(
                             children: [
                               Text(
@@ -107,11 +106,11 @@ class HomePage extends StatelessWidget {
                                     fontWeight: FontWeight.bold,
                                   ),
                               ),
-        
+                          
                               Image.asset(
                                 'assets/icons/mission.png',
                               ),
-        
+                          
                               Text(
                                 "To develop globally competitive and responsible graduates that businesses demand, working in synergy with all our stakeholders and contributing to our society.",
                                   textAlign: TextAlign.center,
@@ -121,14 +120,15 @@ class HomePage extends StatelessWidget {
                                     fontWeight: FontWeight.w500,
                                   ),
                               ),
-        
+                          
                             ],
                           ),
                         )
                       ], 
+                      
                       options: CarouselOptions(
                         onPageChanged: (index, reason) {
-        
+                    
                         },
                         
                         autoPlay: true
@@ -136,32 +136,8 @@ class HomePage extends StatelessWidget {
                     ),
                   ),
         
-                  Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    for (int i = 0; i < 2; i++)
-                      Container(
-                        height: 13,
-                        width: 13,
-                        margin: EdgeInsets.all(5),
-                        decoration: BoxDecoration(
-                            color: currentIndex == i ? Colors.blue : Colors.white,
-                            shape: BoxShape.circle,
-                            boxShadow: [
-                              BoxShadow(
-                                  color: Colors.grey,
-                                  spreadRadius: 1,
-                                  blurRadius: 3,
-                                  offset: Offset(2, 2)
-                              )
-                            ]
-                        ),
-                      )
-                  ],
-                ),
-        
                 Padding(
-                  padding: const EdgeInsets.only(top: 20.0),
+                  padding: const EdgeInsets.only(top: 25.0),
                   child: Column(
                     
                     children: [
@@ -335,5 +311,6 @@ class HomePage extends StatelessWidget {
       ],
     );
   }
+  
 }
 
