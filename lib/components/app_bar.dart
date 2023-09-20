@@ -41,20 +41,31 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
     
             IconButton(
               onPressed: () {}, 
-              icon: Image.asset(
-                "assets/icons/notification.png",
-                width: 24,
-                height: 24,
-              )
+              icon: 
+                Icon(
+                  Icons.notifications_active_outlined
+                ),
+                color: Colors.black,
+                // Image.asset(
+                //   "assets/icons/notification.png",
+                //   width: 24,
+                //   height: 24,
+                // ),
+
             ),
     
             IconButton(
               onPressed: () {}, 
-              icon: Image.asset(
-                "assets/icons/profile.png",
-                width: 30,
-                height: 30,
-              ),
+              icon: 
+                Icon(
+                  Icons.person
+                ),
+                color: Colors.black,
+                // Image.asset(
+                //   "assets/icons/profile.png",
+                //   width: 30,
+                //   height: 30,
+                // ),
             ),
     
           ],

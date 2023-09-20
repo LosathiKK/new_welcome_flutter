@@ -62,9 +62,14 @@ class HomePage extends StatelessWidget {
                                 ),
                               ),
                           
+                              Icon(
+                                Icons.visibility_outlined,
+                                size: 40,
+                              ),
+                              /*
                               Image.asset(
                                 'assets/icons/vision.png'
-                              ),
+                              ),*/
                           
                               Text(
                                 "To be Sri Lanka's best-performing graduate school and to be recognized internationally.",
@@ -107,9 +112,13 @@ class HomePage extends StatelessWidget {
                                   ),
                               ),
                           
-                              Image.asset(
-                                'assets/icons/mission.png',
+                              Icon(
+                                Icons.cast_for_education_sharp,
+                                size: 40,
                               ),
+                              /*Image.asset(
+                                'assets/icons/mission.png',
+                              ),*/
                           
                               Text(
                                 "To develop globally competitive and responsible graduates that businesses demand, working in synergy with all our stakeholders and contributing to our society.",
