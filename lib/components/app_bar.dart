@@ -60,7 +60,7 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
                 Icon(
                   Icons.person
                 ),
-                color: Colors.black,
+                color: Colors.blue,
                 // Image.asset(
                 //   "assets/icons/profile.png",
                 //   width: 30,
