@@ -46,12 +46,6 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
                   Icons.notifications_active_outlined
                 ),
                 color: Colors.black,
-                // Image.asset(
-                //   "assets/icons/notification.png",
-                //   width: 24,
-                //   height: 24,
-                // ),
-
             ),
     
             IconButton(
@@ -60,12 +54,7 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
                 Icon(
                   Icons.person
                 ),
-                color: Colors.blue,
-                // Image.asset(
-                //   "assets/icons/profile.png",
-                //   width: 30,
-                //   height: 30,
-                // ),
+                color: Colors.black,
             ),
     
           ],
