@@ -1,6 +1,7 @@
 # new_welcome_flutter
 
-A new Flutter project.
+A New Flutter project.
+This project contains the Login, Welcome and Home Pages of MAD module project.
 
 ## Getting Started
 
