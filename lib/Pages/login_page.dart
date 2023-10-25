@@ -5,9 +5,14 @@ import 'package:new_welcome_flutter/components/bottom_nav.dart';
 
 bool isCheckedRememberMe = false;
 
-class LoginPage extends StatelessWidget {
+class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
 
+  @override
+  State<LoginPage> createState() => _LoginPageState();
+}
+
+class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -112,14 +117,17 @@ class LoginPage extends StatelessWidget {
                       SizedBox(
                         height: 20.0,
                         width: 20.0,
-                        
+
                         child: Theme(
                           data: ThemeData(), 
                           child: Checkbox(
                             value: isCheckedRememberMe, 
-                            onChanged: actionRememberMe(
-                              isCheckedRememberMe
-                            ),
+                            onChanged: (value) {
+                              setState(() {
+                                isCheckedRememberMe = value!;
+                              });
+                            }
+                            
                           ),
                         ),
                       ),
