@@ -112,6 +112,7 @@ class LoginPage extends StatelessWidget {
                       SizedBox(
                         height: 20.0,
                         width: 20.0,
+                        
                         child: Theme(
                           data: ThemeData(), 
                           child: Checkbox(
@@ -128,6 +129,7 @@ class LoginPage extends StatelessWidget {
                           Container(
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(3),
+                              color: isCheckedRememberMe ? Colors.blue : Colors.black,
                             ),
                             child: SizedBox(
                               width: 6,
@@ -136,8 +138,10 @@ class LoginPage extends StatelessWidget {
                           Text(
                             'Remember Me',
                             style: TextStyle(
-                              color: Colors.black,
+                              color: isCheckedRememberMe ? Color.fromRGBO(15, 26, 88, 1.0): Colors.black,
+                              fontWeight: FontWeight.w600,
                               fontSize: 14,
+                              letterSpacing: 1,
                             ),
                           ),
                         ],
