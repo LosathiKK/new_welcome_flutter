@@ -3,6 +3,8 @@
 A New Flutter project.
 This project contains the Login, Welcome and Home Pages of MAD module project.
 
+Here are the project outputs:
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
