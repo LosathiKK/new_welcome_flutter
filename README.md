@@ -5,6 +5,8 @@ This project contains the Login, Welcome and Home Pages of MAD module project.
 
 Here are the project outputs:
 
+1. Login Pages
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
